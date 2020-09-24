@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "login";
+}
+
+<h2>login</h2>
+<h5>@ViewBag.Message</h5>
+
+<form action="loginform" method="post">
+    <table>
+        <tr>
+            <td>username: </td>
+            <td><input type="text" name="txtUsername" required /></td>
+        </tr>
+        <tr>
+            <td>password: </td>
+            <td><input type="password" name="txtPassword" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="login" /></td>
+        </tr>
+    </table>
+</form>
+
